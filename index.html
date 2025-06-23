@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Redirect to one page by default
+        window.onload = function() {
+            window.location.href = "./pages/home.html";
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="text-center">
+            <h1 class="text-2xl font-semibold text-gray-900">Redirecting...</h1>
+            <p class="mt-2 text-gray-600">Please wait while we redirect you to a page.</p>
+            <div class="mt-4">
+                <p class="text-gray-600">If you are not redirected automatically, please choose a page:</p>
+                <div class="mt-2 space-y-2">
+                    <a href="../pages/home.html" class="block px-4 py-2 bg-[#5a6d57] text-white rounded-md hover:opacity-90 transition-colors">Vendy Home Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
